@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-image: url(/assets/img/pngtree-d-rendered-illustration-of-blue-and-red-abstract-concept-in-4k-image_3691174.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+
+    main.register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        border: solid 1px #ccc;
+        border-radius: 6px;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 20px 0 rgb(0, 0, 0.1);
+
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 90%;
+
+            input, select{
+                height: 30px;
+                border-radius: 6px;
+                border: solid 1px #ccc;
+            }
+
+            button{
+                height: 40px;
+                color: rgb(255, 255, 255);
+                background-color: rgb(209, 39, 209);
+                border-radius: 6px;
+                border: solid 1px rgb(209, 39, 209);
+                cursor: pointer;
+            }
+
+            button:hover{
+                transition: 0.5s;
+                background-color: rgb(209, 39, 209);
+                border: solid 3px rgb(209, 39, 209);;
+            }
+        }
+    } 
+}
